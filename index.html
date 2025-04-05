@@ -1,77 +1,83 @@
 <!DOCTYPE html><html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dimensional Store</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #ff9900;
-            color: white;
-            padding: 15px;
-            text-align: center;
-            font-size: 24px;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-        .produto {
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .btn-comprar {
-            background-color: #ff9900;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            cursor: pointer;
-        }
-        .btn-comprar:hover {
-            background-color: #cc7700;
-        }
-        footer {
-            background-color: #ff9900;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimensional Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #8B0000;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+    .produto {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn-comprar {
+      background-color: #000000;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-comprar:hover {
+      background-color: #333333;
+    }
+    footer {
+      background-color: #8B0000;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        Dimensional Store
-    </header>
-    <div class="container">
-        <div class="produto">
-            <span>Bot Básico</span>
-            <button class="btn-comprar">Comprar</button>
-        </div>
-        <div class="produto">
-            <span>Bot Avançado</span>
-            <button class="btn-comprar">Comprar</button>
-        </div>
-        <div class="produto">
-            <span>Bot Intermediário</span>
-            <button class="btn-comprar">Comprar</button>
-        </div>
+  <header>
+    Dimensional Store
+  </header>
+  <div class="container">
+    <div class="produto">
+      <span>Bot Básico</span>
+      <a href="bot-basico.html" class="btn-comprar">Comprar</a>
     </div>
-    <footer>
-        Pagamentos via Nubank e Iti | <a href="#" style="color: white;">Suporte no Discord</a>
-    </footer>
+    <div class="produto">
+      <span>Bot Avançado</span>
+      <a href="bot-avancado.html" class="btn-comprar">Comprar</a>
+    </div>
+    <div class="produto">
+      <span>Bot Intermediário</span>
+      <a href="bot-intermediario.html" class="btn-comprar">Comprar</a>
+    </div>
+  </div>
+  <footer>
+    Pagamentos via Nubank e Iti |
+    <a href="https://discord.gg/T2ntzm4Tmh" target="_blank">Suporte no Discord</a>
+  </footer>
 </body>
 </html>
