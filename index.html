@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- Favicon (ícone da aba) -->
+  <link rel="icon" type="image/png" href="URL_DA_IMAGEM.png">
+
   <title>Dimensional Store</title>
   <style>
     body {
@@ -15,10 +19,12 @@
 
     header {
       background-color: #8B0000;
-      color: white;
       padding: 15px;
       text-align: center;
-      font-size: 24px;
+    }
+
+    header img {
+      height: 60px;
     }
 
     .container {
@@ -67,8 +73,11 @@
 </head>
 <body>
   <header>
-    Dimensional Store
+    <a href="index.html">
+      <img src="URL_DA_IMAGEM.png" alt="Dimensional Store">
+    </a>
   </header>
+
   <div class="container">
     <div class="produto">
       <span>Bot Básico</span>
@@ -83,6 +92,7 @@
       <a href="bot-intermediario.html" class="btn-comprar">Comprar</a>
     </div>
   </div>
+
   <footer>
     Pagamentos via Nubank e Iti |
     <a href="https://discord.gg/T2ntzm4Tmh" target="_blank">Suporte no Discord</a>
